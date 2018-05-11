@@ -1,0 +1,31 @@
+﻿@using BlazorApp.Shared
+@page "/to-do"
+
+<h1>To do list</h1>
+<h2>Count @ToDoList.Count()</h2>
+<ToDoList ToDos="ToDoList" Remove="Remove"></ToDoList>
+<input type="text" bind="New" /> <button onclick="@(() => Add())">+</button>
+
+@functions{
+	List<ToDoItem> ToDoList;
+	string New;
+
+	public void Add()
+	{
+		ToDoList.Add(new ToDoItem { Name = New, Status = "To do" });
+		New = string.Empty;
+	}
+
+	protected override void OnInit()
+	{
+		ToDoList = new List<ToDoItem>();
+		ToDoList.Add(new ToDoItem { Name = "Fix bug", Status = "Doing" });
+		ToDoList.Add(new ToDoItem { Name = "Finish slides", Status = "Done" });
+		ToDoList.Add(new ToDoItem { Name = "Add docs", Status = "Backlog" });
+	}
+
+	public void Remove(ToDoItem item)
+	{
+		ToDoList.Remove(item);
+	}
+}

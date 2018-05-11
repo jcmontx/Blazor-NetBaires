@@ -1,0 +1,9 @@
+C:\Users\Juan Cruz\Desktop\blazor\FlightFinder.Shared\bin\Debug\netstandard2.0\FlightFinder.Shared.deps.json
+C:\Users\Juan Cruz\Desktop\blazor\FlightFinder.Shared\bin\Debug\netstandard2.0\FlightFinder.Shared.dll
+C:\Users\Juan Cruz\Desktop\blazor\FlightFinder.Shared\bin\Debug\netstandard2.0\FlightFinder.Shared.pdb
+C:\Users\Juan Cruz\Desktop\blazor\FlightFinder.Shared\obj\Debug\netstandard2.0\FlightFinder.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Juan Cruz\Desktop\blazor\FlightFinder.Shared\obj\Debug\netstandard2.0\FlightFinder.Shared.AssemblyInfoInputs.cache
+C:\Users\Juan Cruz\Desktop\blazor\FlightFinder.Shared\obj\Debug\netstandard2.0\FlightFinder.Shared.AssemblyInfo.cs
+C:\Users\Juan Cruz\Desktop\blazor\FlightFinder.Shared\obj\Debug\netstandard2.0\FlightFinder.Shared.dll
+C:\Users\Juan Cruz\Desktop\blazor\FlightFinder.Shared\obj\Debug\netstandard2.0\FlightFinder.Shared.pdb
+C:\Users\Juan Cruz\Desktop\blazor\FlightFinder.Shared\obj\Debug\netstandard2.0\FlightFinder.Shared.csprojAssemblyReference.cache

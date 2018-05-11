@@ -1,0 +1,15 @@
+﻿@using BlazorApp.Shared
+<ul>
+	@foreach (var item in ToDos)
+	{
+		<li>@item.Name (@item.Status)  <button onclick="@(() => Remove(item))">-</button>q</li>
+	}
+</ul>
+
+@functions{
+	[Parameter]
+	List<ToDoItem> ToDos { get; set; }
+
+	[Parameter]
+	Action<ToDoItem> Remove { get; set; }
+}
